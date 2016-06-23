@@ -10,6 +10,7 @@ public class MainActivity extends AppCompatActivity {
 
     Button singlePlayerButton;
     Button multiplayerButton;
+    Button scoreButton;
     Intent intent;
 
     @Override
@@ -34,6 +35,13 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
+        scoreButton = (Button) findViewById(R.id.score_button);
+        scoreButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                intent = new Intent(MainActivity.this, ScoreActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }

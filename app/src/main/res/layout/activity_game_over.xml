@@ -62,7 +62,7 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/check_letter_button"
+            android:id="@+id/save_score_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
@@ -70,7 +70,7 @@
             android:text="SAVE SCORE" />
 
         <EditText
-            android:id="@+id/letter_edit_text"
+            android:id="@+id/name_edit_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"

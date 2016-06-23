@@ -1,10 +1,8 @@
 package com.ahorcado.ernes.ahorcado;
 
 import android.content.Intent;
-import android.support.annotation.DrawableRes;
-import android.support.annotation.StringDef;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -91,6 +89,7 @@ public class SinglePlayerActivity extends AppCompatActivity {
             points++;
             clearScreen();
             setRandomWord();
+
         }
 
     }
@@ -145,6 +144,7 @@ public class SinglePlayerActivity extends AppCompatActivity {
             intent.putExtra("points", points);
             points = 0;
             startActivity(intent);
+            finish();
         }
 
     }

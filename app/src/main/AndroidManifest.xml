@@ -18,7 +18,8 @@
         <activity android:name=".SinglePlayerActivity" />
         <activity android:name=".GameOverActivity" />
         <activity android:name=".MultiplayerActivity" />
-        <activity android:name=".GameMultiActivity"></activity>
+        <activity android:name=".GameMultiActivity" />
+        <activity android:name=".ScoreActivity"></activity>
     </application>
 
 </manifest>

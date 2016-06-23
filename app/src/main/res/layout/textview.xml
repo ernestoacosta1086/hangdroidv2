@@ -5,4 +5,4 @@
     android:layout_height="wrap_content"
     android:paddingRight="5dp"
     android:text="_"
-    android:textSize="40dp" />
+    android:textSize="40sp" />

@@ -16,7 +16,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".SinglePlayerActivity" />
-        <activity android:name=".GameOverActivity"></activity>
+        <activity android:name=".GameOverActivity" />
+        <activity android:name=".MultiplayerActivity" />
+        <activity android:name=".GameMultiActivity"></activity>
     </application>
 
 </manifest>
